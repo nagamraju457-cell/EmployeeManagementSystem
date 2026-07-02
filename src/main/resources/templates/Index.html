@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Add Employee</title>
+
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Employee Management System</h1>
+    <h2>Add New Employee</h2>
+
+    <form th:action="@{/insert}" method="post">
+
+        <input
+            type="number"
+            name="id"
+            placeholder="Enter Employee ID"
+            required>
+
+        <input
+            type="text"
+            name="name"
+            placeholder="Enter Employee Name"
+            required>
+
+        <input
+            type="number"
+            step="0.01"
+            name="sal"
+            placeholder="Enter Employee Salary"
+            required>
+
+        <button type="submit">Add Employee</button>
+
+    </form>
+
+    <div class="back-container">
+        <a th:href="@{/}" class="back-btn">🏠 Go Back</a>
+    </div>
+
+</div>
+
+</body>
+</html>

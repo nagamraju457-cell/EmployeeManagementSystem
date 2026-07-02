@@ -1,0 +1,82 @@
+/* Background */
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:linear-gradient(135deg,#6a11cb,#2575fc);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+/* Card */
+.container{
+    width:420px;
+    background:#fff;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 15px 35px rgba(0,0,0,0.3);
+    text-align:center;
+}
+
+/* Heading */
+h1{
+    color:#222;
+    margin-bottom:10px;
+    font-size:32px;
+}
+
+.subtitle{
+    color:#666;
+    margin-bottom:30px;
+    font-size:18px;
+}
+
+/* Buttons Container */
+.buttons{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+/* Common Button */
+.btn{
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+    padding:15px;
+    border-radius:10px;
+    transition:0.3s;
+    display:block;
+}
+
+/* Individual Colors */
+.add{
+    background:#28a745;
+}
+
+.view{
+    background:#007bff;
+}
+
+.update{
+    background:#ffc107;
+    color:black;
+}
+
+.delete{
+    background:#dc3545;
+}
+
+/* Hover Effect */
+.btn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 8px 15px rgba(0,0,0,0.25);
+}
+
+/* Active Click */
+.btn:active{
+    transform:scale(0.98);
+}

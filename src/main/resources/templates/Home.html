@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Employee Management System</title>
+    <link rel="stylesheet" th:href="@{/css/Home.css}">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Employee Management System</h1>
+    <p class="subtitle">Choose an operation</p>
+
+    <div class="buttons">
+
+        <a th:href="@{/insert}" class="btn add">
+            ➕ Add Employee
+        </a>
+
+        <a th:href="@{/read}" class="btn view">
+            📋 View Employees
+        </a>
+
+        <a th:href="@{/update}" class="btn update">
+            ✏️ Update Employee
+        </a>
+
+        <a th:href="@{/delete}" class="btn delete">
+            🗑 Delete Employee
+        </a>
+
+    </div>
+
+</div>
+
+</body>
+</html>
