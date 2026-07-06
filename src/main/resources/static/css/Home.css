@@ -3,7 +3,7 @@ body{
     margin:0;
     padding:0;
     font-family:Arial, Helvetica, sans-serif;
-    background:linear-gradient(135deg,#6a11cb,#2575fc);
+    background:linear-gradient(135deg,gray,gray);
     display:flex;
     justify-content:center;
     align-items:center;
@@ -58,7 +58,7 @@ h1{
 }
 
 .view{
-    background:#007bff;
+    background: gray;
 }
 
 .update{
