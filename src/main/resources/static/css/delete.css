@@ -8,7 +8,7 @@
 
 /* Background */
 body{
-    background:linear-gradient(135deg,#ff512f,#dd2476);
+    background:linear-gradient(135deg,#ff512f,red);
     display:flex;
     justify-content:center;
     align-items:center;
@@ -63,8 +63,6 @@ button:hover{
     background:#b02a37;
     transform:translateY(-2px);
 }
-
-/* Back Button */
 .home-btn{
     display:inline-block;
     margin-top:20px;
